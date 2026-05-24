@@ -1,0 +1,29 @@
+.gallery-layout {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 0; left: 0;
+}
+.gallery-box {
+  background-color: rgb(255, 0, 0);
+  width: 50%;
+  height: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1000px)  {
+  .gallery-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    top: 0; left: 0;
+  }
+  .gallery-box {
+    background-color: black;
+    width: 100%;
+    height: min(700px, 75vw);
+  }
+}

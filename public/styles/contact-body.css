@@ -1,0 +1,130 @@
+.map-adress {
+  width: 350px;
+  position: absolute;
+  left: min(8vw, 20%); top: 25%;
+  font-size: larger;
+  font-weight: 200;
+  text-align: center;
+  color: #EAEAEA;
+}
+.map {
+  height: 550px;
+  width: 350px;
+  max-width: 100%;
+  position: absolute;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+  left: min(8vw, 20%); top: 30%;
+  height: 350px;
+  margin-top: 25px;
+}
+
+.mail,
+.phone-num {
+  left: 47%; top: 23%;
+  width: 250px;
+  position: absolute;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Share Tech Mono", monospace;
+  font-size: large;
+  color: #EAEAEA; 
+}
+.mail {
+  margin-left: 240px;
+}
+.mail :hover,
+.phone-num :hover {
+  text-decoration: underline;
+}
+
+
+.line1 {
+  position: absolute;
+  background-color: #EAEAEA;
+  width: 500px;
+  height: 2px;
+  top: 25%; left: 47%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.request-form-cont {
+  position: absolute;
+  background-color: rgb(120, 120, 120);
+  border-style: solid;
+  border-color: #EAEAEA;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+  width: 500px;
+  height: auto;
+  top: 30%; left: 47%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form-title {
+  text-align: center;
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.form-entry {
+  margin-left: 25px;
+}
+.form-field {
+  margin-top: 15px;
+}
+.form-field-submit {
+  position: relative;
+  margin-bottom: 10px;
+  left: 35%;
+}
+
+@media screen and (max-width: 1000px)  {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .map-adress {
+    width: 210px;
+    top: 25%;
+    left: 0px;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .map {
+    width: min(70vw, 400px);
+    top: 30%; left: 0vw;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+  }
+  
+  .mail,
+  .phone-num {
+    left: 0vw;
+    width: max(2vw, 210px);
+    font-size: clamp(9px, 3vw, 20px);
+    position: relative;
+  }
+  .mail {
+    margin-left: 0px;
+  }
+  
+  .line1 {
+    width:  min(75vw, 400px);
+    top: 5%; left: 0vw;
+    position: relative;
+  }
+
+  .request-form-cont {
+    width: min(75vw, 400px);
+    top: 10%; left: 0vw;
+    position: relative;
+  }
+}
