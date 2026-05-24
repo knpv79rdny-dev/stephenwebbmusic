@@ -29,7 +29,7 @@
 
       <nav class="nav-menu" id="nav-menu">
         <ul>
-          <li style="text-decoration: underline;"><a href="StephenWebbMusic.html">ABOUT</a></li>
+          <li style="text-decoration: underline;"><a href="index.html">ABOUT</a></li>
           <li><a href="lessons.html">LESSONS</a></li>
           <li><a href="gallery.html">GALLERY</a></li>
           <li><a href="schedule.html">SCHEDULE</a></li>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="right-header">
-      <a href="StephenWebbMusic.html" class="header-logo-cont">
+      <a href="index.html" class="header-logo-cont">
         <img class="header-logo" src="pictures/logo.png">
       </a>
     </div>
@@ -57,11 +57,29 @@
       GUITAR AND MUSIC LESSONS IN CONROE, TEXAS AND ONLINE.
     </p>
 
-    <div class="cover-page-grid">
+    <button onclick="scrollToSection()" type="button" class="scroll-button">
+      <svg width="100%" height="100%" viewBox="0 0 30 30" fill="none" color="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17 18L12 13L7 18M17 11L12 6L7 11" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <script>
+      function scrollToSection() {
+        // Find the target element by its ID
+        const target = document.getElementById("target-point");
+  
+        // Scroll to it smoothly
+        target.scrollIntoView({ 
+          behavior: "smooth", 
+          block: "start" // Options: "start", "center", "end", or "nearest"
+      });
+    }
+    </script>
+
+    <div class="cover-page-grid" id="target-point">
       <p class="summary-paragraph">
         Stephen brings over seven years of experience in the music industry and four years of 
         teaching experience to students of all skill levels. After studying music and teaching 
-        at many classical music schools, he now offers private lessons focused on building 
+        at two classical music schools, he now offers private lessons focused on building 
         strong technique, creativity, and confidence in every student.
       </p>
       <img class="stephen-picture" src="pictures/stephen.jpg">
@@ -86,7 +104,7 @@
         </div>
         <div class="social-box3">
           <a href="https://on.soundcloud.com/IMVgdgA9zZKNSs7fgG" target="_blank" rel="noopener noreferrer" class="social-link soundcloud-link">
-            <svg class="social-icon" viewBox="0 0 24 24" xmlns="http://w3.org">
+            <svg class="social-icon" viewBox="0 0 20 20" xmlns="http://w3.org">
               <path d="M11.56 16.735c0 .354-.031.531-.093.531h-.319c-.062 0-.093-.177-.093-.531V10.15c0-.353.031-.53.093-.53h.319c.062 0 .093.177.093.53v6.585zm-1.547.442c0 .06-.03.089-.093.089h-.319c-.062 0-.093-.03-.093-.089V9.117c0-.06.031-.089.093-.089h.319c.063 0 .093.03.093.089v8.06zm-1.549-.089c0 .118-.031.177-.093.177h-.319c-.062 0-.093-.059-.093-.177V9.752c0-.117.031-.176.093-.176h.319c.062 0 .093.059.093.176v7.336zm-1.547.089c0 .06-.031.089-.093.089h-.319c-.063 0-.093-.03-.093-.089V10.35c0-.06.03-.089.093-.089h.319c.062 0 .093.03.093.089v6.826zm-1.548-.177c0 .118-.031.177-.093.177h-.319c-.062 0-.093-.059-.093-.177v-5.263c0-.118.031-.177.093-.177h.319c.062 0 .093.059.093.177v5.263zm-1.548.088c0 .06-.031.089-.093.089h-.32c-.061 0-.092-.03-.092-.089v-4.09c0-.06.031-.089.093-.089h.319c.062 0 .093.03.093.089v4.09zm-1.548-.221c0 .147-.031.221-.093.221h-.319c-.062 0-.093-.074-.093-.221v-2.3c0-.147.031-.221.093-.221h.319c.062 0 .093.074.093.221v2.3zm-1.548.133c0 .06-.031.088-.093.088h-.319c-.062 0-.093-.03-.093-.088V13.84c0-.059.031-.088.093-.088h.319c.062 0 .093.03.093.088v1.177zm21.439-.818c0-1.89-1.442-3.435-3.238-3.535-.386-2.316-2.315-4.082-4.636-4.082-1.517 0-2.88.756-3.734 1.93-.257-.15-.55-.233-.861-.233-.67 0-1.25.405-1.523.993v7.915c.184.097.387.164.603.197.163.025.329.038.498.038h12.893c1.656 0 3-.105 3-3.223z"/>
             </svg>
           </a>

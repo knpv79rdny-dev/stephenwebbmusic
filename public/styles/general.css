@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 p {
   font-family: "EB Garamond", serif;
   margin-top: 0;
