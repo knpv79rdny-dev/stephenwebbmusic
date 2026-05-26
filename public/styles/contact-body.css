@@ -108,7 +108,7 @@
   .mail,
   .phone-num {
     left: 0vw;
-    width: max(2vw, 210px);
+    width: max(2vw, 250px);
     font-size: clamp(9px, 3vw, 20px);
     position: relative;
   }

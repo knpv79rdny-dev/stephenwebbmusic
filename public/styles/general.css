@@ -13,11 +13,3 @@ body {
   background-color: #1E1E1E;
   color: #EAEAEA;
 }
-footer {
-  width: 300px;
-  z-index: 7;
-  position: relative;
-}
-.copy-right {
-  z-index: 99;
-}

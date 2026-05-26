@@ -49,18 +49,21 @@
 .opening-text{
   left: 24vw;
   position:absolute;
-  color: rgb(255, 255, 255);
   text-wrap:inherit;
   text-align: center;
-  width: 50%;
-  background-color: #121212;
+  width: 50vw;
   border-width: 25px;
-  font-size: 4vw;
+  font-size: 4.5vw;
+  font-weight: 1000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 3vw;
   padding: 6px;
-  z-index: 2;
-  top: 15vw; margin-top: 70px;
+  z-index: 10;
+  top: 12vw; margin-top: 70px;
+  color: rgb(255, 255, 255); 
+  background-color: hsla(0, 0%, 0%, 0.459);
 }
+
 
 
 .summary-paragraph{
@@ -190,4 +193,103 @@
 }
 .video1{
   top:220vw;
+}
+
+
+
+
+.reviews-section{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  top: 280vw;
+  position: absolute;
+}
+.slider{
+  width:70%;
+  overflow:hidden;
+  position:relative;
+}
+.slides{
+  display:flex;
+  transition:transform 0.8s ease-in-out;
+  padding-right: 0%;
+}
+.review-link{
+  min-width:100%;
+  text-decoration:none;
+  color:inherit;
+  padding-right:10%;
+}
+.review-card{
+  background:rgb(0, 0, 0);
+  border-radius:24px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  padding: 5%;
+}
+.review-card:hover{
+  transform:translateY(-6px);
+  box-shadow:
+    0 18px 45px rgba(0,0,0,0.14);
+}
+.review-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:22px;
+}
+.profile-section{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+.profile-pic{
+  width:58px;
+  height:58px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.reviewer-info h4{
+  font-size:18px;
+  margin-bottom:4px;
+}
+.reviewer-info small{
+  font-size:13px;
+  opacity:0.6;
+}
+.google-logo{
+  width:34px;
+  height:34px;
+}
+.stars{
+  color:#fbbc05;
+  font-size:24px;
+  margin-bottom:20px;
+  letter-spacing:2px;
+}
+.review-text{
+  font-size:20px;
+  line-height:1.7;
+  color:#ffffff;
+}
+@media(max-width:768px){
+  .slider{
+    width:100%;
+  }
+  .review-card{
+    padding:25px;
+  }
+  .review-text{
+    font-size:17px;
+  }
+  .profile-pic{
+    width:48px;
+    height:48px;
+  }
+
 }
