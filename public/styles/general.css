@@ -9,10 +9,12 @@ p {
 body {
   margin: 0;
   padding-top: 90px; 
-  height: 100%;
-  background-color: #1E1E1E;
+  min-height: 100vh; /* Takes up full screen height minimum */
+  min-height: 100dvh; /* Safely handles Safari mobile nav bars */
+  background-color: #000000; /* Forces the canvas background to black */
+  background-blend-mode: color;
   color: #EAEAEA;
-  overscroll-behavior:none;
+  overscroll-behavior: none;
 }
 main {
   flex: 1; /* Pushes the footer down */
