@@ -6,6 +6,12 @@ footer {
   height: 25vw;
   bottom: -270vw;
 }
+@media (max-width: 768px){
+  footer{
+    height: 55vw;
+  }
+}
+
 @media(min-width:768px){
   .footer-nav{
     padding-top: 1vw;
@@ -41,7 +47,7 @@ footer {
   left: 21.5vw;
   position: absolute;
   justify-self: center;
-  bottom: 0;
+  top: 20vw;
  }
 
  .footer-social{
@@ -51,8 +57,7 @@ footer {
   width: 90%;
   height: 10vw;
   left: 3vw;
-  top: 35%;
-  align-self: center;
+  top: 9vw;
   justify-content: space-evenly;
  }
  .footer-ig, .footer-yt, .footer-sc{
