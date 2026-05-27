@@ -1,5 +1,11 @@
 html{
   scroll-behavior: smooth;
+  overscroll-behavior: none;
+
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: none; /* Safari respects this on sub-containers */
+  -webkit-overflow-scrolling: touch;
 }
 p {
   font-family: "EB Garamond", serif;
