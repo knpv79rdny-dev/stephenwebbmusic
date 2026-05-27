@@ -14,14 +14,12 @@ p {
 }
 body {
   margin: 0;
-  padding-top: 90px; 
-  min-height: 100vh; /* Takes up full screen height minimum */
+  padding-top: 90px;
+  height: 355vw;
   min-height: 100dvh; /* Safely handles Safari mobile nav bars */
-  background-color: #000000; /* Forces the canvas background to black */
-  background-blend-mode: color;
-  color: #EAEAEA;
   overscroll-behavior: none;
+  color: white;
 }
-main {
-  flex: 1; /* Pushes the footer down */
+main{
+  height: 355vw;
 }

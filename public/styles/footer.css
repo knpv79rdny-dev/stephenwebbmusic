@@ -4,13 +4,9 @@ footer {
   background-color: black;
   width: 100%;
   height: 25vw;
-  bottom: -270vw;
+  bottom: 0vw;
 }
-@media (max-width: 768px){
-  footer{
-    height: 55vw;
-  }
-}
+
 
 @media(min-width:768px){
   .footer-nav{
