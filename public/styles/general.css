@@ -9,9 +9,11 @@ p {
 body {
   margin: 0;
   padding-top: 90px; 
-  height: 355vw;
+  height: 100%;
   background-color: #1E1E1E;
-  background: linear-gradient(to bottom, #1E1E1E 90%, #000000 10%);
   color: #EAEAEA;
   overscroll-behavior:none;
+}
+main {
+  flex: 1; /* Pushes the footer down */
 }
