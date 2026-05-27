@@ -1,11 +1,10 @@
 footer {
-  margin-top: 100%;
   display: flex;
   position:relative;
   background-color: black;
   width: 100%;
   height: 25vw;
-  bottom: -170vw;
+  bottom: -270vw;
 }
 @media(min-width:768px){
   .footer-nav{
