@@ -201,9 +201,9 @@
 .reviews-section{
   width:100vw;
   display:flex;
-  justify-content:center;
+  justify-content: center;
   align-items:center;
-  top: 280vw;
+  top: 275vw;
   position: absolute;
 }
 .slider{
@@ -248,48 +248,32 @@
   gap:1vw;
 }
 .profile-pic{
-  width:1vw;
-  height:1vw;
+  width:5vw;
+  height:5vw;
   border-radius:50%;
   object-fit:cover;
 }
 .reviewer-info h4{
-  font-size:2.5vw;
+  font-size:2vw;
   margin-bottom:.2vw;
   font-family: "Google Sans",Roboto,Arial,sans-serif;
 }
 .reviewer-info small{
-  font-size:13px;
+  font-size:2vw;
   opacity:0.6;
 }
 .google-logo{
-  width:34px;
-  height:34px;
+  width: 5vw;
+  height: 5vw;
 }
 .stars{
   color:#fbbc05;
-  font-size:24px;
-  margin-bottom:20px;
-  letter-spacing:2px;
+  font-size:2vw;
+  margin-bottom:2vw;
+  letter-spacing:.2vw;
 }
 .review-text{
-  font-size:20px;
-  line-height:1.7;
+  font-size:2vw;
+  line-height:1.7vw;
   color:#ffffff;
-}
-@media(max-width:768px){
-  .slider{
-    width:100%;
-  }
-  .review-card{
-    padding:25px;
-  }
-  .review-text{
-    font-size:17px;
-  }
-  .profile-pic{
-    width:48px;
-    height:48px;
-  }
-
 }
