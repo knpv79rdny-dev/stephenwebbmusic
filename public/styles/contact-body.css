@@ -101,8 +101,8 @@
   }
   .map {
     width: min(70vw, 400px);
-    top: 30%; left: 0vw;
-    position: relative;
+    top: 300%; left: 0vw;
+    position: absolute;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
   }
   

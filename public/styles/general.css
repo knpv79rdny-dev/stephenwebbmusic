@@ -22,7 +22,7 @@ body {
   background-color: #000000;
 }
 main{
-  height: 333vw;
+  min-height: 333vw;
   background-color: #121212;
 }
 @media(min-width: 1000px){
