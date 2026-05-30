@@ -1,22 +1,24 @@
 .lessons-page{
   align-items: center;
 }
+
+
+
 .lessons-intro{
   text-align: center;
   position: relative;
-  margin-bottom: 17vw;
+  margin-bottom: 25vw;
   margin-left: 25vw;
   margin-right: 25vw;
-  top: 7vw;
+  top: 12vw;
   font-size: 3vw;
   padding: 3vw;
-  border-style: solid;
+  background-color: black;
   border-radius: 5vw;
-  border-width: 1px;
 }
 .lessons-instruments{
   text-align: center;
-  margin-bottom: 7vw;
+  margin-bottom: 3vw;
   font-size: 3vw;
 }
 .lesson-box{
@@ -27,12 +29,13 @@
   padding: 2vw;
   margin-bottom: 5vw;
   width: 90vw;
-  left: 3vw;
+  left: 4vw;
 
 }
 .lesson-title{
   position: relative;
   margin-bottom: 1vw;
+  margin-left: 3vw;
   font-size: 4vw;
   font-weight: 1000;
   text-align: center;
@@ -63,4 +66,50 @@
 .lesson-button:Hover{
   box-shadow: 0 .5vw .5vw rgba(255, 255, 255, 0.45);
   transform: translateY(-.7vw) scale(1.05);
+}
+@media(min-width: 750px){
+  .lessons-intro{
+    left:-2.5vw;
+  }
+  .lesson-box{
+    align-self: center;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4vw;
+    padding: 2vw;
+    margin-bottom: 5vw;
+    width: 65vw;
+    left: 15vw;
+  }
+  .lesson-title{
+    position: relative;
+    margin-bottom: 1vw;
+    font-size: 4vw;
+    font-weight: 1000;
+    width: 80vw;
+    margin-left: -9vw;
+  }
+  .lesson-paragraph{
+    position: relative;
+    text-align: center;
+    font-size: 2.77vw;
+    margin-bottom: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    width: 65vw;
+  }
+  .lesson-button{
+    position: relative;
+    background-color: #212121;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5vw;
+    width: 30vw;
+    height: 7vw;
+    border: color(white);
+    border-style:solid;
+    border-radius: 25vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    left: 2.2vw;
+  }
 }
