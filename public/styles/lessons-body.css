@@ -2,22 +2,9 @@
   align-items: center;
 }
 
-
-
-.lessons-intro{
-  text-align: center;
-  position: relative;
-  margin-bottom: 25vw;
-  margin-left: 25vw;
-  margin-right: 25vw;
-  top: 12vw;
-  font-size: 3vw;
-  padding: 3vw;
-  background-color: black;
-  border-radius: 5vw;
-}
 .lessons-instruments{
   text-align: center;
+  padding-top: 4vw;
   margin-bottom: 3vw;
   font-size: 3vw;
 }
@@ -29,7 +16,7 @@
   padding: 2vw;
   margin-bottom: 5vw;
   width: 90vw;
-  left: 4vw;
+  left: 3vw;
 
 }
 .lesson-title{
@@ -61,7 +48,7 @@
   border-style:solid;
   border-radius: 25vw;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  left: 4.5vw;
+  left: 4vw;
 }
 .lesson-button:Hover{
   box-shadow: 0 .5vw .5vw rgba(255, 255, 255, 0.45);

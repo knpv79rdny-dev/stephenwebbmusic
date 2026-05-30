@@ -1,3 +1,7 @@
+body{
+  height: 100%;
+}
+
 .map-adress {
   width: 350px;
   position: absolute;
@@ -10,10 +14,10 @@
 .map {
   height: 550px;
   width: 350px;
-  max-width: 100%;
+  max-width: 80%;
   position: absolute;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
-  left: min(8vw, 20%); top: 30%;
+  left: min(32vw, 20%); top: 30%;
   height: 350px;
   margin-top: 25px;
 }
@@ -44,7 +48,7 @@
   background-color: #EAEAEA;
   width: 500px;
   height: 2px;
-  top: 25%; left: 47%;
+  top: 25%; left: 0%;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -58,7 +62,7 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
   width: 500px;
   height: auto;
-  top: 30%; left: 47%;
+  top: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -82,18 +86,13 @@
 }
 
 @media screen and (max-width: 1000px)  {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    width: 100%;
+  .request-form-cont{
+    margin-left: 11vw;;
   }
-
   .map-adress {
     width: 210px;
     top: 25%;
-    left: 0px;
+    left: 30vw;
     text-align: center;
     position: relative;
     margin-top: 30px;
@@ -101,17 +100,18 @@
   }
   .map {
     width: min(70vw, 400px);
-    top: 300%; left: 0vw;
+    top: 110vw; left: 14vw;
     position: absolute;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
   }
   
   .mail,
   .phone-num {
-    left: 0vw;
+    left: 1.5vw;
     width: max(2vw, 250px);
     font-size: clamp(9px, 3vw, 20px);
     position: relative;
+    margin-top: 2vw;
   }
   .mail {
     margin-left: 0px;
@@ -119,13 +119,13 @@
   
   .line1 {
     width:  min(75vw, 400px);
-    top: 5%; left: 0vw;
+    top: 5%; margin-left: 13.5vw;
     position: relative;
   }
 
   .request-form-cont {
     width: min(75vw, 400px);
-    top: 10%; left: 0vw;
+    top: 10%; left: 2vw;
     position: relative;
   }
 }
