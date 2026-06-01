@@ -109,7 +109,7 @@ body{
   .phone-num {
     left: 1.5vw;
     width: max(2vw, 250px);
-    font-size: clamp(9px, 3vw, 20px);
+    font-size: clamp(7px, 3vw, 20px);
     position: relative;
     margin-top: 2vw;
   }
