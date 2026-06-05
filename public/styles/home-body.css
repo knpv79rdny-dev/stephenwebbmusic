@@ -277,3 +277,40 @@
     0 18px 45px rgba(0,0,0,0.14);
   cursor: pointer;
 }
+
+@media(min-width: 750px){
+  .summary-paragraph{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .stephen-picture {
+    width:27%;
+    top: 107vw;
+    position: absolute;
+    margin-left: 10%;
+    border-radius: 12%;
+  }
+  
+  .social-container {
+    display: flex;
+    gap: 20px; /* Space between the two icons */
+    padding: 20px;
+  }
+  .social-box1, .social-box2, .social-box3{
+    display: flex;
+    align-items: center;
+    left: 40%;
+    height: 12vw; width: 48.5vw;
+    position: absolute;
+    padding-left: 1%;
+    border: solid;
+    border-radius: 2vw;
+    border-width: 2px;
+    border-color: #ffffff;
+  }
+
+  .slider{
+    width: 80vw;
+  }
+  
+}
