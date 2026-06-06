@@ -76,8 +76,9 @@ ul{
     box-shadow: 2px -2px .1px rgba(0, 0, 0, 0);
     width: 100%;
     justify-content:center;
-    padding-left: 18vw;
-
+    align-content: space-evenly;
+    padding-left: 15vw;
+    font-size: 1.3vw;
   }
 
   .nav-menu ul {

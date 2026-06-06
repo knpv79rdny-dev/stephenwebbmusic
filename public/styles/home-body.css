@@ -1,17 +1,19 @@
 .home-image-cont {
-  flex: auto;
-  justify-content: center;
   width: 100%;
-  height: 45vw;
+  max-height: 80vh;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
-.home-image {
+.home-video2{
   transform: translateY(-25%);
   width: 0%;
-  position:absolute ;
+  position:relative;
+  top: -5vw;
+  overflow: hidden; 
 }
 .home-video{
-  position: absolute;
+  position: relative;
   width: 100%;
   top: -5vw;
   z-index: 2;
@@ -23,8 +25,10 @@
   align-self: center;
   background-color:#121212;
   border: none;
-  width: 7vw;
-  left: 47vw; 
+  width: auto;
+  max-height: 7%;
+  padding-left: 45%; padding-right: 45%;
+
   cursor: pointer;
   opacity: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -33,66 +37,67 @@
 .scroll-button:hover{
   transform: translateY(-5px) scale(1.05);
 }
-@media screen and (max-width: 1250px)  {
+@media screen and (max-width: 1000px)  {
   .home-video{
     width: 0%;
   }
-  .home-image{
+  .home-video2{
     width: 100%;
   }
   .scroll-button{
-    opacity: 0%;
   }
 }
 
 .summary-paragraph{
   color: white;
-  top: 67vw;
+  top: 25vh;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 3vw;
   height: auto;
   width: 90%;
   margin-left: 5%;
-  position: absolute;
+  position: relative;
+}
+
+.social-section{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  height: min-content;
+  top: 30vh;
 }
 .stephen-picture {
-  width:30%;
-  top: 105vw;
-  position: absolute;
-  margin-left: 7%;
+  position: relative;
+  margin-left: 10vw;
   border-radius: 12%;
+  width: 30vw;
+  height: auto;
 }
 
 .social-container {
   display: flex;
+  flex-direction: column;
   gap: 20px; /* Space between the two icons */
   padding: 20px;
+  position: relative;
 }
 .social-box1, .social-box2, .social-box3{
   display: flex;
   align-items: center;
-  left: 40%;
-  height: 12vw; width: 50vw;
-  position: absolute;
-  padding-left: 1%;
+  width: 43vw;
+  position: relative;
+  padding: 3%;
   border: solid;
   border-radius: 2vw;
   border-width: 2px;
   border-color: #ffffff;
 }
-.social-box1{
-  top: 107vw;
-}
-.social-box2{
-  top: 122vw;
-}
-.social-box3{
-  top: 137vw;
-}
+
 
 .instagram-link {
-  position: absolute;
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +126,7 @@
   width: 7vw;
 }
 .youtube-link {
-  position: absolute;
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -138,7 +143,7 @@
   transform: translateY(-5px) scale(1.05);
 }
 .soundcloud-link {
-  position: absolute;
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -157,21 +162,20 @@
 .social-tag, .social-tag1, .social-tag2{
   text-align: center;
   position: relative;
-  left: 30%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 3vw;
-}
-.social-tag1{
-  left: 40%;
+  font-size: 2.7vw;
+  left: 4vw;
 }
 .youtube-video{
-  top: 163vw; left: 10vw;
-  position: absolute;
+  left: 10vw;
+  position: relative;
   width: 80%; height: 45vw; 
   overflow: hidden;
+  top: 35vh;
 }
 .video1{
-  top:220vw;
+  margin-top: 5vh;
+  position: relative;
 }
 
 
@@ -182,8 +186,8 @@
   display:flex;
   justify-content: center;
   align-items:center;
-  top: 275vw;
-  position: absolute;
+  position: relative;
+  top: 55vh;
 }
 .slider{
   width:90vw;
@@ -259,8 +263,8 @@
   text-decoration: none;
   font-weight: 900;
   font-size: 3vw;
-  position: absolute;
-  top:310vw; left:34.75vw;
+  position: relative;
+  left:34.75vw; top: 22vh;
   border-style: solid;
   border-width: .5vw;
   border-radius: 3vw;
@@ -283,30 +287,10 @@
     width: 80%;
     margin-left: 10%;
   }
-  .stephen-picture {
-    width:27%;
-    top: 107vw;
-    position: absolute;
-    margin-left: 10%;
-    border-radius: 12%;
-  }
-  
   .social-container {
     display: flex;
     gap: 20px; /* Space between the two icons */
     padding: 20px;
-  }
-  .social-box1, .social-box2, .social-box3{
-    display: flex;
-    align-items: center;
-    left: 40%;
-    height: 12vw; width: 48.5vw;
-    position: absolute;
-    padding-left: 1%;
-    border: solid;
-    border-radius: 2vw;
-    border-width: 2px;
-    border-color: #ffffff;
   }
 
   .slider{

@@ -90,8 +90,8 @@
     margin-bottom: 1vw;
     font-size: 3vw;
     font-weight: 1000;
-    width: 80vw;
-    left: -28vw;
+    width: 40vw;
+    left: -8vw;
   }
   .lesson-paragraph{
     font-size: 1.7vw;
@@ -100,7 +100,7 @@
   .lesson-button{
     font-size: 1.7vw;
     width: 14vw;
-    left: 0vw;
+    left: 1vw;
   }
 }
 

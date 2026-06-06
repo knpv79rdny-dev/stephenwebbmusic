@@ -15,18 +15,18 @@ p {
 body {
   margin: 0;
   padding-top: 90px;
-  height: 333vw;
+  height: auto;
   min-height: 100dvh; /* Safely handles Safari mobile nav bars */
   overscroll-behavior: none;
   color: white;
   background-color: #000000;
 }
 main{
-  min-height: 333vw;
+  min-height: 400vw;
   background-color: #121212;
 }
 @media(min-width: 1000px){
   body, main{
-    height: 300vw;
+    height: auto;
   }
 }
