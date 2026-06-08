@@ -1,6 +1,6 @@
 .home-image-cont {
   width: 100%;
-  max-height: 80vh;
+  max-height: 70vh;
   overflow: hidden;
   justify-content: center;
   align-items: center;
@@ -187,7 +187,7 @@
   justify-content: center;
   align-items:center;
   position: relative;
-  top: 55vh;
+  top: 60vh;
 }
 .slider{
   width:90vw;
@@ -264,7 +264,7 @@
   font-weight: 900;
   font-size: 3vw;
   position: relative;
-  left:34.75vw; top: 22vh;
+  left:34.75vw; top: 25vh;
   border-style: solid;
   border-width: .5vw;
   border-radius: 3vw;
