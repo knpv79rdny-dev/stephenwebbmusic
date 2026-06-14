@@ -18,8 +18,8 @@
   position: relative;
   overflow: hidden;
   z-index: 2;
-  width: 100%;
-  top: -5vw;
+  width: auto;
+  padding-bottom: 2vh;
 }
 
 .scroll-cont{
@@ -48,7 +48,7 @@
     width: 0%;
   }
   .home-video2{
-    width: 100%;
+    width: auto;
   }
 }
 
