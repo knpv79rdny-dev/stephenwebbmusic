@@ -55,12 +55,13 @@
           <source src="pictures/home-video.mp4" type="video/mp4">
         </video>
       </div>
-
-      <button onclick="scrollToSection()" type="button" class="scroll-button">
-        <svg width="100%" height="100%" viewBox="0 0 30 30" fill="none" color="white" xmlns="http://www.w3.org/2000/svg">
-          <path d="M17 18L12 13L7 18M17 11L12 6L7 11" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
+      <div class="scroll-cont">
+        <button onclick="scrollToSection()" type="button" class="scroll-button">
+          <svg width="100%" height="100%" viewBox="0 0 30 30" fill="none" color="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 18L12 13L7 18M17 11L12 6L7 11" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
       <script>
         function scrollToSection() {
           // Find the target element by its ID

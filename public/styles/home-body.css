@@ -1,41 +1,47 @@
 .home-image-cont {
   width: 100%;
-  max-height: 70vh;
+  max-height: 85%;
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  top:70px;
+  position: absolute;
 }
 .home-video2{
   transform: translateY(-25%);
   width: 0%;
   position:relative;
-  top: -5vw;
-  overflow: hidden; 
+  overflow: hidden;
+  height: 100%;
 }
 .home-video{
   position: relative;
-  width: 100%;
-  top: -5vw;
+  overflow: hidden;
   z-index: 2;
   width: 100%;
-  opacity: 1;
+  top: -5vw;
+}
+
+.scroll-cont{
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  top: 95vh;
+  background-color: #121212;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .scroll-button{
-  position: absolute;
+  position: relative;
   align-self: center;
   background-color:#121212;
   border: none;
-  width: auto;
-  max-height: 7%;
-  padding-left: 45%; padding-right: 45%;
-
+  width: 7vh;
   cursor: pointer;
-  opacity: 100%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  left: 45%;
 }
 
-.scroll-button:hover{
-  transform: translateY(-5px) scale(1.05);
+.scroll-cont:hover{
+  transform: translateY(-2vh) scale(1.05);
 }
 @media screen and (max-width: 1000px)  {
   .home-video{
@@ -44,13 +50,11 @@
   .home-video2{
     width: 100%;
   }
-  .scroll-button{
-  }
 }
 
 .summary-paragraph{
   color: white;
-  top: 25vh;
+  top: 95vh;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 3vw;
@@ -61,18 +65,20 @@
 }
 
 .social-section{
-  display:inline-flex;
+  display:flex;
   flex-direction: row;
   justify-content: center;
+  padding-left: 5vh;
   position: relative;
   height: min-content;
-  top: 30vh;
+  top: 100vh;
+  width: 90%;
+  overflow: hidden;
 }
 .stephen-picture {
   position: relative;
-  margin-left: 10vw;
   border-radius: 12%;
-  width: 30vw;
+  width: 30%;
   height: auto;
 }
 
@@ -86,7 +92,7 @@
 .social-box1, .social-box2, .social-box3{
   display: flex;
   align-items: center;
-  width: 43vw;
+  width: 37vw;
   position: relative;
   padding: 3%;
   border: solid;
@@ -166,12 +172,14 @@
   font-size: 2.7vw;
   left: 4vw;
 }
+
+
 .youtube-video{
   left: 10vw;
   position: relative;
   width: 80%; height: 45vw; 
   overflow: hidden;
-  top: 35vh;
+  top: 105vh;
 }
 .video1{
   margin-top: 5vh;
@@ -187,7 +195,7 @@
   justify-content: center;
   align-items:center;
   position: relative;
-  top: 60vh;
+  top: 125vh;
 }
 .slider{
   width:90vw;
@@ -264,7 +272,7 @@
   font-weight: 900;
   font-size: 3vw;
   position: relative;
-  left:34.75vw; top: 25vh;
+  left:34.75vw; top: 100vh;
   border-style: solid;
   border-width: .5vw;
   border-radius: 3vw;
