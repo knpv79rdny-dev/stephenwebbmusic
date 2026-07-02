@@ -30,6 +30,7 @@
 .scroll-button{
   position: absolute;
   bottom: 30px;
+  left: 45%;
   background-color:#00000000;
   border: none;
   width: 7vh;
@@ -290,8 +291,8 @@
     width: 80vw;
   }
 
-  .scroll-cont{
-    left: 35%;
+  .scroll-button{
+    left: 45%;
   }
 
   .hv-container .home-video{
