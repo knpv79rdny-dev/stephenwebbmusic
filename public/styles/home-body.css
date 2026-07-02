@@ -19,30 +19,6 @@
   display: none; /* Mobile is hidden */
 }
 
-.scroll-cont{
-  position: absolute;
-  align-items: center;
-  background-color: #121212;
-  box-shadow:#121212;
-  z-index: 10;
-}
-
-.scroll-button{
-  position: absolute;
-  bottom: 30px;
-  left: 45%;
-  background-color:#00000000;
-  border: none;
-  width: 7vh;
-  cursor:pointer;
-  z-index: 10;
-}
-
-.scroll-button:hover{
-  transform: translateY(-2vh);
-  transition: ease .75s;
-}
-
 .summary-paragraph{
   color: white;
   text-align: center;
@@ -289,10 +265,6 @@
 
   .slider{
     width: 80vw;
-  }
-
-  .scroll-button{
-    left: 45%;
   }
 
   .hv-container .home-video{
