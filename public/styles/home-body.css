@@ -1,65 +1,53 @@
-.home-image-cont {
-  width: 100%;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
+
+.hv-container .home-video {
   position: relative;
-  background-color: black;
-}
-.home-video2{
-  transform: translateY(-25%);
-  width: 0%;
-  position:relative;
-  overflow: hidden;
-  top: -4vw;
-}
-.home-video{
-  position: relative;
-  overflow: hidden;
+  object-position: center; 
+  object-fit: cover;
   z-index: 2;
-  width: 100%;
-  padding-bottom: 2vh;
-  top: -2.5vw;
+  width: 100%; 
+  height: 100%;
+  display: block; /* Desktop is visible */
+}
+
+.hv-container .home-video2 {
+  position: relative;
+  object-position: center; 
+  object-fit: cover;
+  width: 100%; 
+  height: 100%;
+  transform: translateY(-25%); 
+  display: none; /* Mobile is hidden */
 }
 
 .scroll-cont{
-  position: relative;
-  width: 100%;
+  position: absolute;
   align-items: center;
-  top: 95vh;
   background-color: #121212;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow:#121212;
   z-index: 10;
 }
+
 .scroll-button{
-  position: relative;
-  align-self: center;
-  background-color:#121212;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  background-color:#00000000;
   border: none;
   width: 7vh;
-  cursor: pointer;
-  left: 45%;
+  cursor:pointer;
+  z-index: 1000;
 }
 
-.scroll-cont:hover{
-  transform: translateY(-2vh) scale(1.05);
-}
-@media screen and (max-width: 1000px)  {
-  .home-video{
-    width: 0%;
-  }
-  .home-video2{
-    width: 100%;
-  }
+.scroll-button:hover{
+  transform: translateY(-2vh);
+  transition: ease .75s;
 }
 
 .summary-paragraph{
   color: white;
-  top: 95vh;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 3vw;
-  height: auto;
   width: 90%;
   margin-left: 5%;
   position: relative;
@@ -72,7 +60,6 @@
   padding-left: 5vh;
   position: relative;
   height: min-content;
-  top: 100vh;
   width: 90%;
   overflow: hidden;
 }
@@ -180,7 +167,6 @@
   position: relative;
   width: 80%; height: 45vw; 
   overflow: hidden;
-  top: 105vh;
 }
 .video1{
   margin-top: 5vh;
@@ -196,7 +182,6 @@
   justify-content: center;
   align-items:center;
   position: relative;
-  top: 125vh;
 }
 .slider{
   width:90vw;
@@ -273,16 +258,16 @@
   font-weight: 900;
   font-size: 3vw;
   position: relative;
-  left:34.75vw; top: 100vh;
+  left:34.75vw;
   border-style: solid;
   border-width: .5vw;
   border-radius: 3vw;
   padding: 2.7vw;
   color: #ffffff;
   background-color: black;
-  transition:
-  transform 0.3s ease,
-  box-shadow 0.3s ease;
+  transition: 0.5s ease;
+  transform: 0.3s ease;
+  box-shadow: 0.3s ease;
 }
 .lessons-redirect:hover{
   transform:translateY(-6px);
@@ -291,7 +276,7 @@
   cursor: pointer;
 }
 
-@media(min-width: 750px){
+@media screen and (max-width: 1000px){
   .summary-paragraph{
     width: 80%;
     margin-left: 10%;
@@ -305,5 +290,16 @@
   .slider{
     width: 80vw;
   }
+
+  .scroll-button{
+    left: 45%;
+  }
+
+  .hv-container .home-video{
+    display: none;
+  }
   
+  .hv-container .home-video2{
+    display: block;
+  }
 }
