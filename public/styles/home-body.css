@@ -18,6 +18,18 @@
   transform: translateY(-25%); 
   display: none; /* Mobile is hidden */
 }
+.scroll-button{
+  bottom: 20%;
+  position: relative;
+  border:none;
+  background-color: #00000000;
+}
+.hv-container{
+  height: 95vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 
 .summary-paragraph{
   color: white;
