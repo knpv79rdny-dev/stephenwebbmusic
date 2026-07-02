@@ -30,7 +30,6 @@
 .scroll-button{
   position: absolute;
   bottom: 30px;
-  left: 50%;
   background-color:#00000000;
   border: none;
   width: 7vh;
