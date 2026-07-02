@@ -35,7 +35,7 @@
   border: none;
   width: 7vh;
   cursor:pointer;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .scroll-button:hover{
