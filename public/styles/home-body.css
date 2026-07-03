@@ -39,28 +39,31 @@
   width: 90%;
   margin-left: 5%;
   position: relative;
+  padding-bottom: 10%;
 }
 
 .social-section{
   display:flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 5vh;
+  align-items: center;
   position: relative;
   height: min-content;
   width: 90%;
   overflow: hidden;
+  padding-bottom: 10%;
 }
 .stephen-picture {
   position: relative;
   border-radius: 12%;
   width: 30%;
-  height: auto;
+  height: 30%;
 }
 
 .social-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 20px; /* Space between the two icons */
   padding: 20px;
   position: relative;
@@ -68,9 +71,11 @@
 .social-box1, .social-box2, .social-box3{
   display: flex;
   align-items: center;
-  width: 37vw;
+  object-fit: contain;
+  padding-right: 25%;
   position: relative;
   padding: 3%;
+  width: 40vw;
   border: solid;
   border-radius: 2vw;
   border-width: 2px;
@@ -146,7 +151,7 @@
   position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2.7vw;
-  left: 4vw;
+  padding: 5%;
 }
 
 
@@ -159,6 +164,7 @@
 .video1{
   margin-top: 5vh;
   position: relative;
+  padding-bottom: 10%;
 }
 
 
@@ -170,6 +176,7 @@
   justify-content: center;
   align-items:center;
   position: relative;
+  padding-bottom: 10%;
 }
 .slider{
   width:90vw;
@@ -188,7 +195,10 @@
 }
 .review-card{
   background:rgb(0, 0, 0);
-  border-radius:5vw;
+  border-radius: 5vw;
+  border-width: 1px;
+  border: white;
+  border-style: solid;
   box-shadow:
     0 10px 30px rgba(0,0,0,0.08);
   transition:
