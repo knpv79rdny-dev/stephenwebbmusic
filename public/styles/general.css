@@ -16,17 +16,15 @@ body {
   margin: 0;
   padding-top: 90px;
   height: auto;
-  min-height: 100dvh; /* Safely handles Safari mobile nav bars */
+ /* Safely handles Safari mobile nav bars */
   overscroll-behavior: none;
   color: white;
   background-color: #000000;
 }
 main{
-  min-height: 400vw;
+  min-height: auto;
   background-color: #000000;
 }
-@media(min-width: 1000px){
-  body, main{
-    height: auto;
-  }
+body, main{
+  height: auto;
 }
