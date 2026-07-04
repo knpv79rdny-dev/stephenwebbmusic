@@ -23,6 +23,7 @@
   position: relative;
   border:none;
   background-color: #00000000;
+  z-index: 10;
 }
 .hv-container{
   height: 95vh;
@@ -45,13 +46,12 @@
 .social-section{
   display:flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  gap: 5vw;
   position: relative;
-  height: min-content;
   width: 90%;
+  margin-left: 20%;
   overflow: hidden;
-  padding-bottom: 10%;
 }
 .stephen-picture {
   position: relative;
@@ -63,19 +63,20 @@
 .social-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  gap: 20px; /* Space between the two icons */
-  padding: 20px;
+  justify-content: space-around;
   position: relative;
+  height: 100%;
+  gap: 5vw;
 }
 .social-box1, .social-box2, .social-box3{
   display: flex;
   align-items: center;
   object-fit: contain;
-  padding-right: 25%;
+  margin-bottom: 5%;
+  padding: 5%;
   position: relative;
   padding: 3%;
-  width: 40vw;
+  width: 25vw;
   border: solid;
   border-radius: 2vw;
   border-width: 2px;
@@ -88,8 +89,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 8vw;
-  height: 8vw;
+  width: 18%;
+  height: 18%;
   padding:5px;
   text-decoration: none;
   /* Instagram sunset gradient background */
@@ -102,23 +103,21 @@
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 8px 25px rgba(214, 36, 159, 0.4);
 }
-.instagram-icon {
-  width: 7vw;
-  height: 7vw;
-  fill: #ffffff;
-}
 
-.social-icon{
-  height: 7vw;
-  width: 7vw;
+.social-icon, .social-icon1{
+  height: 100%;
+  width: 100%;
+}
+.social-icon1{
+  fill: white;
 }
 .youtube-link {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 8vw;
-  height: 8vw;
+  width: 18%;
+  height: 18%;
   text-decoration: none;
   background-color: #fd5949;
   border-radius: 25%;
@@ -134,8 +133,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 8vw;
-  height: 8vw;
+  width: 18%;
+  height: 18%;
   text-decoration: none;
   background-color: #ff5f09;
   border-radius: 25%;
@@ -151,9 +150,8 @@
   position: relative;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2.7vw;
-  padding: 5%;
+  padding-left: 15%;
 }
-
 
 .youtube-video{
   left: 10vw;
@@ -192,6 +190,7 @@
   text-decoration:none;
   color:inherit;
   padding-right:10%;
+  padding-top: 10%;
 }
 .review-card{
   background:rgb(0, 0, 0);
@@ -207,7 +206,7 @@
   padding: 5%;
 }
 .review-card:hover{
-  transform:translateY(-6px);
+  transform:translateY(-6%);
   box-shadow:
     0 18px 45px rgba(0,0,0,0.14);
 }
@@ -266,21 +265,27 @@
   transition: 0.5s ease;
 }
 .lessons-redirect:hover{
-  transform:translateY(6vw);
+  transform:translateY(-7%);
   box-shadow:
     0 18px 45px rgba(0,0,0,0.14);
   cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
+  .social-section{
+    flex-direction: column;
+    margin-left: 3%;
+  }
+  .stephen-picture{
+    margin-bottom: 5%;
+  }
+  .social-container{
+    gap: 1vw;
+  }
+
   .summary-paragraph{
     width: 80%;
     margin-left: 10%;
-  }
-  .social-container {
-    display: flex;
-    gap: 20px; /* Space between the two icons */
-    padding: 20px;
   }
 
   .slider{
