@@ -25,6 +25,11 @@
   background-color: #00000000;
   z-index: 10;
 }
+.scroll-button:hover{
+  transform:translateY(-8px);
+  cursor: pointer;
+  transition: .7s ease;
+}
 .hv-container{
   height: 95vh;
   justify-content: center;
@@ -163,7 +168,7 @@
 .video1{
   margin-top: 5vh;
   position: relative;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 
@@ -178,7 +183,7 @@
   padding-bottom: 10%;
 }
 .slider{
-  width:90vw;
+  width:85svw;
   overflow:hidden;
   position:relative;
 }
@@ -196,9 +201,6 @@
 .review-card{
   background:rgb(0, 0, 0);
   border-radius: 5vw;
-  border-width: 1px;
-  border: white;
-  border-style: solid;
   box-shadow:
     0 10px 30px rgba(0,0,0,0.08);
   transition:
@@ -251,6 +253,15 @@
   line-height:3vw;
   color:#ffffff;
 }
+
+.redirect-box{
+  position: relative;
+  transition: 0.5s ease;
+}
+.redirect-box:hover{
+  transform:translateY(-8px);
+  cursor: pointer;
+}
 .lessons-redirect{
   text-decoration: none;
   font-weight: 900;
@@ -262,14 +273,7 @@
   border-radius: 3vw;
   padding: 2.7vw;
   color: #ffffff;
-  background-color: black;
-  transition: 0.5s ease;
-}
-.lessons-redirect:hover{
-  transform:translateY(-7%);
-  box-shadow:
-    0 18px 45px rgba(0,0,0,0.14);
-  cursor: pointer;
+  background-color: #0e0e10;
 }
 
 @media screen and (max-width: 768px){
