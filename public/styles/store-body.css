@@ -22,68 +22,7 @@ body{
   margin-top: 25px;
 }
 
-.mail,
-.phone-num {
-  left: 47%; top: 23%;
-  width: 250px;
-  position: absolute;
-  background: none;
-  cursor: pointer;
-  border: none;
-  font-family: "Share Tech Mono", monospace;
-  font-size: large;
-  color: #EAEAEA; 
-}
-.mail {
-  margin-left: 240px;
-}
-.mail :hover,
-.phone-num :hover {
-  text-decoration: underline;
-}
 
-
-.line1 {
-  position: absolute;
-  background-color: #EAEAEA;
-  width: 500px;
-  height: 2px;
-  top: 25%; left: 0%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-
-.request-form-cont {
-  position: absolute;
-  background-color: rgb(120, 120, 120);
-  border-style: solid;
-  border-color: #EAEAEA;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
-  width: 500px;
-  height: auto;
-  top: 30%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.form-title {
-  text-align: center;
-  font-size: large;
-  margin-top: 10px;
-  margin-bottom: 7px;
-}
-.form-entry {
-  margin-left: 25px;
-}
-.form-field {
-  margin-top: 15px;
-}
-.form-field-submit {
-  position: relative;
-  margin-bottom: 10px;
-  left: 35%;
-}
 
 @media screen and (max-width: 1000px)  {
   .request-form-cont{
