@@ -78,18 +78,17 @@
   width: 55%;
   position: relative;
   text-align: center;
-  
+  left: 5%;
 }
 .mail,
 .phone-num {
-  left: 5%;
   width: 80%;
   position: relative;
   background: none;
   cursor: pointer;
   border: none;
   font-family: "Share Tech Mono", monospace;
-  font-size: 100%;
+  font-size: 3vw;
   color: #EAEAEA; 
   text-decoration: none;
 }
