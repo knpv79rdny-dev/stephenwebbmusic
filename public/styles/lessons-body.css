@@ -138,7 +138,7 @@ form label {
 form input,
 form textarea {
   width: 100%;
-  padding: 12px 14px;
+  padding-left: 12px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 7px;
@@ -155,7 +155,7 @@ form textarea:focus {
 }
 form textarea {
   resize: vertical;
-  min-height: 130px;
+  min-height: 50px;
 }
 form button {
   width: 100%;
