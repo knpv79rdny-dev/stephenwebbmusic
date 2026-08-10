@@ -230,4 +230,7 @@ form button:active {
     left: 1vw;
   }
 
+  .request-form-cont {
+    max-width: 95%;
+  }
 }
