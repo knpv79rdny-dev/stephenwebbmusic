@@ -231,6 +231,7 @@ form button:active {
   }
 
   .request-form-cont {
-    max-width: 95%;
+    max-width: 40%;
+
   }
 }
