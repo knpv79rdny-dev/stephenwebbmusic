@@ -110,7 +110,7 @@
 
 
 .request-form-cont {
-  max-width: 80%;
+  max-width: 80%; max-height: 50%;
   margin: 0 auto;
   padding: 30px;
   background: #000000;
@@ -236,6 +236,5 @@ form button:active {
 
   .request-form-cont {
     max-width: 40%;
-
   }
 }
