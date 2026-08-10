@@ -230,6 +230,10 @@ form button:active {
     left: 1vw;
   }
 
+  .line1{
+    max-width: 40%;
+  }
+
   .request-form-cont {
     max-width: 40%;
 
